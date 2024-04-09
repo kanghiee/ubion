@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='css/base.css')}}">
+</head>
+<body>
+    <h1>회원 가입</h1>
+    <!-- 회원의 정보를 입력하느 공간 생성 -->
+    <form action="/signup2" method="post">
+        <label>ID</label>       
+        <input type="text" name="input_id">
+        <br>
+        <label>PASSWORD</label>
+        <input type="password" name="input_pass">
+        <br>
+        <label>Name</label>
+        <input type="text" name="input_name">
+        <br>
+        <!-- value 속성은 버튼 안에 텍스트를 변경 -->
+        <input type="submit" value="회원가입">
+    </form>
+</body>
+</html>

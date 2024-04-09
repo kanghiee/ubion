@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="{{url_for('static', filename='css/bootstrap.min.css')}}" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <form action="/save_content" method="post">
+            
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" name="input_title" placeholder="글 제목">
+            </div>
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" name="input_writer" placeholder="작성자">
+            </div>
+            <div class="input_group mb-3">
+                <textarea class="form-control" style="height: 500px;"  placeholder="본문" name="input_content"></textarea>
+            </div>
+            <!-- 제출 버튼은 생성 -->
+            <input type="submit" class="btn btn-primary" value="글쓰기">
+        </form>
+    </div>
+</body>
+</html>
