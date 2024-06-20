@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Item_List</title>
+    {% include 'ga.html' %}
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f9f9f9;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .item {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px;
+            transition: background-color 0.3s, box-shadow 0.3s;
+            text-decoration: none; /* 링크 스타일 제거 */
+            color: inherit; /* 링크 글자색 부모 요소와 동일하게 */
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .item:hover {
+            background-color: #f0f0f0;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .item img {
+            display: block;
+            margin: 0 auto;
+        }
+
+        .item span {
+            display: block;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- db_data라는 변수명으로 [{No, Name, price, img_url},{}] -->
+    <div class="container">
+        {% for item in db_data %}
+            <a href="/item_info?no={{item.No}}" class="item">
+                <div>
+                    <span>
+                        <img src="{{ item.img_url }}" height="500px">
+                    </span>
+                    <span>
+                        <p>{{ item.Name }}</p>
+                        <p>{{ item.price }}원</p>
+
+                    </span>
+                </div>
+            </a>
+        {% endfor %}
+    </div>
+</body>
+</html>

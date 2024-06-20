@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- 외부의 css 파일을 로드 -->
+    <link rel="stylesheet"
+    href="{{url_for('static', filename='css/slide.css')}}">
+    <!-- 외부의 js 파일 로드 -->
+    <script src="{{url_for('static', filename='js/slide.js')}}"></script>
+</head>
+<body onload="showSlide()">
+    <span class="slideshow-container">
+        <div class="slide-background">
+            {% for i in range(cnt) %}
+                <div class="slides fade">
+                    <a href="{{links[i]}}">
+                        <img src="{{imgs[i]}}" class="slide_img">
+                    </a>
+                </div>
+            {% endfor %}
+        </div>
+    </span>
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Jquery 라이브러리 로드 -->
+    <script src="http://code.jquery.com/jquery-3.7.1.js"></script>
+    <!-- class가 non-display라면 화면에 숨긴다.-->
+    <style>
+        .non-display{
+            display: none;
+        }
+    </style>
+    <script>
+        // html문서가 모두 준비가 완료되었을때
+        $(document).ready(
+            function(){
+                // id가 check_in인 태그가 클릭되었을 때
+                $('#check_id').click(
+                    function(){
+                        // id가 password인 태그를 선택하여
+                        // non-display class를 제거
+                        $('#password').toggleClass('non-display')
+                        // check_id 태그를 숨긴다.
+                        $('#check_id').hide()
+                    }
+                )
+                
+                // 비밀번호 확왼(id가 pass2인 태그에 유저가 값을 입력할 때
+                $('#pass2').keyup(
+                    function(){
+                    // id가 pass1인 태그에 입력된 값을 변수에 저장
+                    // id가 pass2인 태그에 입력된 값을 변수에 저장
+                    // JS에서 변수를 생성하는 방법
+                        // const, let, var 키워드를 사용
+                    let pass1 = $('#pass1').val()
+                    let pass2 = $('#pass2').val()
+                    // 조건문 사용 조건식은 pass1 == pass2
+                    if (pass1 == pass2){
+                        // 조건식이 참인 경우 실행할 코드
+                        // id가 check_pass인 태그에 일치라는 메시지를 보여준다
+                        $('#check_pass').html('일치')
+                        // id가 user_info인 태그의 non-display class 값을 제거
+                        $('#user_info').removeClass('non-display')
+                    }else{
+                        // 조건식이 거짓인 경우 실행할 코드
+                        // id가 check_pass인 태그에 불일치라는 메시지를 보여준다
+                        $('#check_pass').html('불일치')
+                    }
+                }
+            )
+        }
+    )
+    </script>
+</head>
+<body>
+    <form action="/signup" method="post">
+        <!-- 3개 영역으로 태그를 구성 -->
+        <!-- 첫번째 영역 --> 
+        <div>
+            <!-- id를 입력하는 공간 -->
+            <label>ID</label>
+            <input type="text" name="input_id" required>
+            <!-- id 중복체크 버튼 생성 -->
+            <p id="check_id">중복체크</p>
+        </div>
+        <div class="non-display" id="password">
+            <!-- password를 입력하는 공간 -->
+            <div>
+                <label>password</label>
+                <input type="password" name="input_pass"
+                id="pass1" required>
+            </div>
+            <!-- password 확인을 입력하는 공간 -->
+            <div>
+                <label>confirm password</label>
+                <input type="password" id="pass2" required>
+            </div>
+            <p id="check_pass"></p>
+        </div>
+        <!-- 세번 째 영역 생성(비밀번호와 비밀번호 확인이 일치하는 경우에 실행) -->
+        <div class="non-display" id="user_info">
+            <!-- 유저의 이름을 입력하는 공간 -->
+            <div>
+                <label>Name</label>
+                <input type="text" name="input_name" required>
+            </div>
+            <!-- 제출 버튼을 생성 -->
+            <input type="submit" value="회원가입">
+        </div>
+    </form>
+</body>
+</html>

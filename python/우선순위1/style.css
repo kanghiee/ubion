@@ -1,0 +1,431 @@
+.element {
+    position: relative;
+    width: 375px;
+    height: 876px;
+    background-color: #ffffff;
+  }
+  
+  .element .view {
+    position: absolute;
+    width: 67px;
+    height: 27px;
+    top: 18px;
+    left: 28px;
+  }
+  
+  .element .text-wrapper {
+    position: absolute;
+    top: -1px;
+    left: 0;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .element .overlap {
+    position: absolute;
+    width: 382px;
+    height: 656px;
+    top: 102px;
+    left: 2px;
+  }
+  
+  .element .div {
+    top: 4px;
+    left: 24px;
+    position: absolute;
+    height: 17px;
+    font-family: "Spartan-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 15px;
+    letter-spacing: 0.3px;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .element .view-2 {
+    position: absolute;
+    width: 357px;
+    height: 374px;
+    top: 282px;
+    left: 25px;
+  }
+  
+  .element .text-wrapper-2 {
+    top: 6px;
+    left: 8px;
+    position: absolute;
+    height: 17px;
+    font-family: "Spartan-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 15px;
+    letter-spacing: 0.3px;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .element .typcn-plus-wrapper {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    top: 0;
+    left: 69px;
+    background-color: #ababab;
+    border-radius: 16px;
+  }
+  
+  .element .typcn-plus {
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    top: 6px;
+    left: 5px;
+  }
+  
+  .element .overlap-group-wrapper {
+    position: absolute;
+    width: 228px;
+    height: 228px;
+    top: 67px;
+    left: 53px;
+    background-image: url(./img/ellipse-2319.svg);
+    background-size: 100% 100%;
+  }
+  
+  .element .overlap-group {
+    position: relative;
+    height: 228px;
+    background-image: url(./img/ellipse-2321.svg);
+    background-size: 100% 100%;
+  }
+  
+  .element .ellipse {
+    position: absolute;
+    width: 114px;
+    height: 129px;
+    top: 99px;
+    left: 114px;
+  }
+  
+  .element .img {
+    position: absolute;
+    width: 228px;
+    height: 228px;
+    top: 0;
+    left: 0;
+  }
+  
+  .element .view-3 {
+    position: absolute;
+    width: 9px;
+    height: 8px;
+    top: 348px;
+    left: 163px;
+    background-color: #ababab;
+    border-radius: 4.5px/4.13px;
+  }
+  
+  .element .calendar {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 2px;
+    left: 123px;
+  }
+  
+  .element .overlap-wrapper {
+    position: absolute;
+    width: 369px;
+    height: 295px;
+    top: 0;
+    left: 0;
+  }
+  
+  .element .overlap-2 {
+    position: relative;
+    width: 358px;
+    height: 260px;
+    top: 26px;
+    left: 3px;
+  }
+  
+  .element .view-wrapper {
+    position: absolute;
+    width: 187px;
+    height: 56px;
+    top: 0;
+    left: 84px;
+  }
+  
+  .element .view-4 {
+    display: flex;
+    width: 187px;
+    align-items: center;
+    gap: 34px;
+    padding: 16px 0px;
+    position: relative;
+  }
+  
+  .element .chevron-left {
+    position: relative;
+    width: 24px;
+    height: 24px;
+  }
+  
+  .element .text-wrapper-3 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Lato-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #6979f8;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .element .chevron-left-2 {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    margin-right: -4px;
+  }
+  
+  .element .small-calendar {
+    display: flex;
+    flex-direction: column;
+    width: 358px;
+    height: 220px;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 10px;
+    position: absolute;
+    top: 40px;
+    left: 0;
+  }
+  
+  .element .frame {
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    display: flex;
+    position: relative;
+  }
+  
+  .element .frame-2 {
+    align-items: flex-start;
+    justify-content: space-between;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    opacity: 0.7;
+    display: flex;
+    position: relative;
+  }
+  
+  .element .calendar-day-small {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 4px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .element .typography-wrapper {
+    width: 26px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 5px;
+    display: flex;
+    position: relative;
+  }
+  
+  .element .typography {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 10px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .element .typography-2 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Poppins-Medium", Helvetica;
+    font-weight: 500;
+    color: var(--text);
+    font-size: 10px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .element .frame-3 {
+    align-items: flex-start;
+    justify-content: space-between;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    display: flex;
+    position: relative;
+  }
+  
+  .element .div-wrapper {
+    align-items: flex-start;
+    display: flex;
+    width: 22px;
+    gap: 10px;
+    padding: 5px;
+    position: relative;
+  }
+  
+  .element .frame-4 {
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary);
+    border-radius: 99px;
+    display: flex;
+    width: 22px;
+    gap: 10px;
+    padding: 5px;
+    position: relative;
+  }
+  
+  .element .typography-3 {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 10px;
+    position: relative;
+    flex: 0 0 auto;
+    margin-left: -0.5px;
+    margin-right: -0.5px;
+  }
+  
+  .element .typography-4 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Poppins-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 10px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .element .typography-5 {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 10px;
+    position: relative;
+    flex: 0 0 auto;
+    margin-right: -1px;
+  }
+  
+  .element .frame-wrapper {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 4px;
+    position: relative;
+    flex: 0 0 auto;
+    opacity: 0.3;
+  }
+  
+  .element .view-5 {
+    position: absolute;
+    width: 375px;
+    height: 56px;
+    top: 820px;
+    left: 2px;
+    background-color: #000000;
+    overflow-y: scroll;
+  }
+  
+  .element .vector-wrapper {
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    top: 14px;
+    left: 318px;
+    background-image: url(./img/vector-2.svg);
+    background-size: 100% 100%;
+  }
+  
+  .element .vector {
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    top: 0;
+    left: 0;
+  }
+  
+  .element .view-6 {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 12px;
+    left: 243px;
+  }
+  
+  .element .bar {
+    height: 19px;
+    top: 13px;
+    left: 0;
+    background-color: #fdd0ee;
+    position: absolute;
+    width: 9px;
+  }
+  
+  .element .bar-2 {
+    height: 24px;
+    top: 8px;
+    left: 12px;
+    background-color: #d0ffe5;
+    position: absolute;
+    width: 9px;
+  }
+  
+  .element .bar-3 {
+    height: 32px;
+    top: 0;
+    left: 23px;
+    background-color: #d0e8ff;
+    position: absolute;
+    width: 9px;
+  }
+  
+  .element .vector-2 {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 12px;
+    left: 95px;
+  }
+  
+  .element .vector-3 {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 12px;
+    left: 171px;
+  }
+  
+  .element .vector-4 {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 12px;
+    left: 23px;
+  }

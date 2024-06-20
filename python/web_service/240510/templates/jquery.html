@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Jquery 라이브러리 로드 -->
+    <script src="http://code.jquery.com/jquery-3.7.1.js"></script>
+    <!-- css 설정 -->
+    <!-- a 라는 class를 가진 태그는 화면에서 숨긴다. -->
+    <style>
+        .a{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <p id="p1">
+    </p>
+    <p>
+    </p>
+    <button>
+        Click
+    </button>
+    <script>
+        // p 태그에 특정 태그를 대입
+        // jQuery(태그명) -> $(태그명)
+        $('p').html('<b>jQuery</b>')
+        // $(css_selector)
+        // tag중 id가 p1인 태그를 선택
+        // css() :  첫번째 인가(디자인 속성명), 두번째 인자(속성 값)
+        $('#p1').css('color', 'red')
+        // button 태그를 선택 -> click 이벤트가 발생했을 때
+        $('button').click(
+            function(){
+                // id가 p1인 태그를 선택하여 숨긴다.
+                // hide() : 태그를 보여주지 않는다.
+                // show() : 태그를 보여준다.
+                // css를 이용해서 display 속성의 값을 none변경하면 
+                // 태그가 화면에서 사라진다.
+                // $('#p1').hide()
+                // p1 id를 가진 태그에 a라는 class가 존재하면 클래스를 제거 
+                // a라는 class가 없다면 class a를 추가
+                $('#p1').toggleClass('a')
+            }
+        )
+    </script>
+</body>
+</html>

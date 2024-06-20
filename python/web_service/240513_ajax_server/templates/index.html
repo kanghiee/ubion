@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- 비동기 통신을 사용하기 위한 라이브러리 로드 -->
+    <!-- Jquery 라이브러리 로드 -->
+    <script src="http://code.jquery.com/jquery-3.7.1.js"></script>
+    <!-- Ajax 코드 작성 -->
+    <script>
+        // HTML 문서가 로드가 완료되었을 때
+        $(document).ready(
+            function(){
+                // button 태그가 클릭되었을 때
+                $('button').click(
+                    function(){
+                        // id가 input_1인 태그에 입력된 값을 변수에 저장
+                        let input_val = $('#input_1').val()
+                        // ajax를 이용한 비동기 통신
+                        $.ajax(
+                            // 데이터를 보낼 주소, 데이터를 보내는 방식, 데이터 
+                            {
+                                url : '/ajax_data', 
+                                method : 'get',
+                                dataType : 'text',
+                                data : {
+                                    'input_id' : input_val
+                                }
+                            }
+                        )
+                        //비동기 통신을 이용하여 요청을 보낸 뒤
+                        // response data를 저장
+                        .then(
+                            function(response){
+                                // 응답 메시지는 response
+                                // 팝업창
+                                alert(response)
+                            }
+                        )
+                    }
+                )
+            }
+        )
+    </script>
+</head>
+<body>
+    <h1>
+        Ajax를 이용한 비동기 통신
+    </h1>
+    <!-- form 태그를 이용하지 않고 서버에게 데이터를 보낸다 -->
+    <!-- 유저가 데이터를 입력하는 공간 -->
+    <input type="text" id="input_1">
+    <button>ID_Check</button>
+    <!-- Ajax를 이용하여 서버에게 유저가 입력한 
+        데이터를 보낸다. (버튼을 클릭했을 때)
+    -->
+    <h1>
+        form 태그를 이용한 동기 통신
+    </h1>
+    <!-- form 태그를 이용하여 입력한 데이터를 서버에게 보낸다. -->
+    <form action="/data" method="get">
+        <input type="text" name="input_id">
+        <input type="submit">
+    </form>
+    <!-- 하이퍼링크 생성 -->
+    <a href="/game">게임으로 이동</a>
+
+</body>
+</html>

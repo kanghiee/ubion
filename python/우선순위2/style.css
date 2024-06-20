@@ -1,0 +1,348 @@
+.element {
+    position: relative;
+    width: 375px;
+    height: 876px;
+    background-color: #ffffff;
+  }
+  
+  .element .view {
+    position: absolute;
+    width: 357px;
+    height: 374px;
+    top: 384px;
+    left: 25px;
+  }
+  
+  .element .div {
+    position: absolute;
+    width: 9px;
+    height: 8px;
+    top: 348px;
+    left: 163px;
+    background-color: #ababab;
+    border-radius: 4.5px/4.13px;
+  }
+  
+  .element .overlap-group-wrapper {
+    position: absolute;
+    width: 228px;
+    height: 228px;
+    top: 67px;
+    left: 53px;
+    background-image: url(./img/ellipse-2319.svg);
+    background-size: 100% 100%;
+  }
+  
+  .element .overlap-group {
+    position: relative;
+    height: 228px;
+    background-image: url(./img/ellipse-2321.svg);
+    background-size: 100% 100%;
+  }
+  
+  .element .ellipse {
+    position: absolute;
+    width: 114px;
+    height: 129px;
+    top: 99px;
+    left: 114px;
+  }
+  
+  .element .img {
+    position: absolute;
+    width: 228px;
+    height: 228px;
+    top: 0;
+    left: 0;
+  }
+  
+  .element .typcn-plus-wrapper {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    top: 0;
+    left: 69px;
+    background-color: #ababab;
+    border-radius: 16px;
+  }
+  
+  .element .typcn-plus {
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    top: 6px;
+    left: 5px;
+  }
+  
+  .element .text-wrapper {
+    position: absolute;
+    height: 17px;
+    top: 6px;
+    left: 8px;
+    font-family: "Spartan-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 15px;
+    letter-spacing: 0.3px;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .element .view-2 {
+    position: absolute;
+    width: 375px;
+    height: 56px;
+    top: 820px;
+    left: 0;
+    background-color: #000000;
+    overflow-y: scroll;
+  }
+  
+  .element .overlap {
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    top: 14px;
+    left: 318px;
+    background-image: url(./img/vector-2.svg);
+    background-size: 100% 100%;
+  }
+  
+  .element .vector {
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    top: 0;
+    left: 0;
+  }
+  
+  .element .view-3 {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 12px;
+    left: 243px;
+  }
+  
+  .element .bar {
+    position: absolute;
+    width: 9px;
+    height: 19px;
+    top: 13px;
+    left: 0;
+    background-color: #fdd0ee;
+  }
+  
+  .element .bar-2 {
+    height: 24px;
+    top: 8px;
+    left: 12px;
+    background-color: #d0ffe5;
+    position: absolute;
+    width: 9px;
+  }
+  
+  .element .bar-3 {
+    height: 32px;
+    top: 0;
+    left: 23px;
+    background-color: #d0e8ff;
+    position: absolute;
+    width: 9px;
+  }
+  
+  .element .vector-2 {
+    left: 95px;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 12px;
+  }
+  
+  .element .vector-3 {
+    left: 171px;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 12px;
+  }
+  
+  .element .vector-4 {
+    left: 23px;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 12px;
+  }
+  
+  .element .view-4 {
+    position: absolute;
+    width: 285px;
+    height: 222px;
+    top: 107px;
+    left: 24px;
+  }
+  
+  .element .view-5 {
+    position: absolute;
+    width: 283px;
+    height: 190px;
+    top: 32px;
+    left: 2px;
+  }
+  
+  .element .task {
+    position: absolute;
+    width: 120px;
+    height: 35px;
+    top: 155px;
+    left: 163px;
+  }
+  
+  .element .overlap-group-2 {
+    position: relative;
+    width: 122px;
+    height: 35px;
+  }
+  
+  .element .rectangle {
+    position: absolute;
+    width: 115px;
+    height: 35px;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px #00000040;
+  }
+  
+  .element .text {
+    position: absolute;
+    width: 116px;
+    height: 15px;
+    top: 11px;
+    left: 6px;
+  }
+  
+  .element .text-wrapper-2 {
+    width: 97px;
+    top: 0;
+    left: 17px;
+    font-size: 12px;
+    letter-spacing: -1.32px;
+    position: absolute;
+    font-family: "Spartan-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    line-height: normal;
+  }
+  
+  .element .ellipse-2 {
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    top: 2px;
+    left: 0;
+    background-color: #f34e4e;
+    border-radius: 3.5px;
+  }
+  
+  .element .overlap-wrapper {
+    top: 154px;
+    left: 0;
+    position: absolute;
+    width: 120px;
+    height: 35px;
+  }
+  
+  .element .ellipse-3 {
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    top: 2px;
+    left: 0;
+    background-color: #4ef3a4;
+    border-radius: 3.5px;
+  }
+  
+  .element .div-wrapper {
+    top: 103px;
+    left: 163px;
+    position: absolute;
+    width: 120px;
+    height: 35px;
+  }
+  
+  .element .task-2 {
+    top: 103px;
+    left: 0;
+    position: absolute;
+    width: 120px;
+    height: 35px;
+  }
+  
+  .element .task-3 {
+    top: 51px;
+    left: 163px;
+    position: absolute;
+    width: 120px;
+    height: 35px;
+  }
+  
+  .element .task-4 {
+    top: 52px;
+    left: 0;
+    position: absolute;
+    width: 120px;
+    height: 35px;
+  }
+  
+  .element .task-5 {
+    top: 0;
+    left: 163px;
+    position: absolute;
+    width: 120px;
+    height: 35px;
+  }
+  
+  .element .task-6 {
+    top: 1px;
+    left: 0;
+    position: absolute;
+    width: 120px;
+    height: 35px;
+  }
+  
+  .element .text-wrapper-3 {
+    height: 17px;
+    top: -1px;
+    left: 0;
+    font-size: 15px;
+    letter-spacing: 0.3px;
+    white-space: nowrap;
+    position: absolute;
+    font-family: "Spartan-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    line-height: normal;
+  }
+  
+  .element .view-6 {
+    position: absolute;
+    width: 67px;
+    height: 27px;
+    top: 18px;
+    left: 26px;
+  }
+  
+  .element .text-wrapper-4 {
+    position: absolute;
+    top: -1px;
+    left: 0;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+  }

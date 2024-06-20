@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 유저가 서버에게 데이터를 보내는 페이지 -->
+    <!-- 데이터를 보내는 주소(action)와 방법(method) 지정 -->
+    <!-- 주소는 구글의 서치 페이지 -->
+    <!-- 데이터는 검색어 -->
+    <!-- 데이터를 보내는 방식(get/post) -->
+    <h1>Google 검색</h1>
+    <form action="https://www.google.com/search" method="get">
+        <!-- 검색어를 입력할 수 있는 공간 생성 -->
+        <!-- 검색어의 key값으로 사용되는 name은 q -->
+        <input type="text" name="q">
+        <!-- 줄바꿈 -->
+        <br>
+        <!-- 데이터를 보내는 제출 버튼 생성 -->
+        <input type="submit">           
+    </form>
+    <h1>해당 웹서버에 데이터 보내기</h1>
+    <form action="/data" method="get">
+        <!-- 
+            http://localhost:8080/data 주소에 
+            데이터를 get 방법으로 보낸다.
+            {'q': 'input태그에 유저가 입력한 값'}
+        -->
+        <input type="text" name="q">
+        <br>
+        <input type="submit">
+    </form>
+    <h1>chart 데이터 보내기</h1>
+    <form action="/chart" method="get">
+        <!-- select키 값, type 키 값의 input 태그 생성 -->
+        <input type="text" name="select">
+        <br>
+        <!-- <input type="text" name="type"> -->
+        <!-- 
+            유저가 값을 입력하는 것이 아니라
+            값들중에서 데이터를 선택하도록 태그를 생성
+        -->
+        <!-- <select name="type"> -->
+            <!-- 유저가 선택할수 있는 목록 -->
+            <!-- <option value="bar">막대그래프</option>
+            <option value="line">선그래프</option>
+        </select> -->
+        <!-- radio button 생성 -->
+        <!-- radio button과 label을 연결 -->
+        <input type="radio" name="type" 
+        value="bar" id="r1">
+        <label for="r1">막대그래프</label>
+        <input type="radio" name="type" 
+        value="line" id="r2">
+        <label for="r2">선그래프</label>
+        <br>
+        <input type="submit">
+    </form>
+    
+</body>
+</html>

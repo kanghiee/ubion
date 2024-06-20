@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- ga.html 포함 -->
+    {% include 'ga.html' %}
+    <script>
+        // 장바구니 이벤트 함수 생성
+        function add_cart(){
+            gtag(
+                'event', 'add_to_cart',
+                {
+                    currency : 'KRW',
+                    value : 10000,
+                    items : [
+                        {
+                            item_id : 'ITEM_1',
+                            item_name : '딸기',
+                            item_category : '과일',
+                            price : 10000 ,
+                            quantity : 1
+                        }
+                    ]
+                }
+            )
+        }
+        // 구매 함수 생성
+        function purchase(){
+            gtag(
+                'event', 'purchase',
+                {
+                    currency : 'KRW',
+                    value : 10000,
+                    transaction_id : 'T-0',
+                    items : [
+                        {
+                            item_id : 'ITEM_1',
+                            item_name : '딸기',
+                            item_category : '과일',
+                            price : 10000,
+                            quantity: 1
+                        }
+                    ]
+                }
+            )
+        }
+    </script>
+</head>
+<body>
+    <!-- 장바구니에 물건 추가 이벤트 -->
+    <button onclick="add_cart()">장바구니에 추가</button>
+    <!-- 구매 이벤트 발생 -->
+    <button onclick="purchase()">구매하기</button>
+</body>
+</html>

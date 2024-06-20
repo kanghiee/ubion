@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{info[0]['Name']}}</title>
+    {% include 'ga.html' %}
+    <style>
+        span{
+            display : inline-block;
+        }
+    </style>
+    <script src="http://code.jquery.com/jquery-3.7.1.js"></script>
+    <script>
+        function add_cart(){
+            // input태그에 유저가 입력한 데이터를 변수에 저장
+            let cnt = $('#cnt').val()
+            console.log(cnt)
+            gtag(
+                'event', 'add_to_cart',
+                {
+                    currency : 'KRW',
+                    value : {{info[0]['price']}} * cnt, // 제품의 가격 * 수량
+                    items : [
+                        {
+                            item_id : "{{info[0]['No']}}", 
+                            item_name : "{{info[0]['Name']}}",
+                            item_category : 'All',
+                            price : {{info[0]['price']}},
+                            quantity : cnt 
+                        }
+                    ]
+                }
+            )
+        }
+        function purchase(){
+            let cnt = $('#cnt').val()
+            console.log(cnt)
+            gtag(
+                'event', 'purchase',
+                {
+                    currency:'KRW',
+                    value: {{info[0]['price']}} * cnt,
+                    items : [
+                        {
+                            item_id : "{{info[0]['No']}}",
+                            item_name : "{{info[0]['Name']}}",
+                            item_category : 'All',
+                            price : {{info[0]['price']}},
+                            quantity : cnt
+                        }
+                    ]
+                }
+            )
+        }
+    </script>
+</head>
+<body>
+    <div>
+        <span>
+            <img src="{{info[0]['img_url']}}" height="300px">
+        </span>
+        <span>
+            <p><b>{{info[0]['Name']}}</b></p>
+            <p>{{info[0]['price']}}</p>
+            <!-- 수량(숫자)을 입력하는 공간 -->
+            <input type="number" id="cnt">
+            <button onclick="add_cart()">장바구니에 추가</button>
+            <button onclick="purchase()">구매하기</button>
+        </span>
+    </div>
+</body>
+</html>

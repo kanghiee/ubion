@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>    
+    <!-- Jquery 라이브러리 로드 -->
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-H8TN0V1Z68"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-H8TN0V1Z68');
+
+    // ga_send()함수를 생성
+    function ga_send(){
+        // input 태그중 name이 select1인 태그의 value를 추출
+        let s1 = $('input[name="select1"]:checked').val()
+        // select 태그중 name이 select2인 태그의 value를 추출
+        let s2 = $('select[name="select2"]').val()
+        // ga의 event 발생 함수를 호출
+        gtag(
+            'event', 
+            'user_select', 
+            {
+                select1 : s1, 
+                select2 : s2
+            }
+        )
+    }
+
+    </script>
+</head>
+<body>
+    <form action="/select" method="get">
+        <!-- 짜장이냐 짬뽕이냐 선택을 할수 있는 태그 생성 -->
+        <div>
+            <input type="radio" name="select1" value="짜장">
+            <label>짜장</label>
+        </div>
+        <div>
+            <input type="radio" name="select1" value="짬뽕">
+            <label>짬뽕</label>
+        </div>
+        <!-- 부먹 찍먹 -->
+        <select name="select2">
+            <option value="부먹">부먹</option>
+            <option value="찍먹">찍먹</option>
+        </select>
+        <input type="submit" onclick="ga_send()">
+    </form>
+</body>
+</html>
