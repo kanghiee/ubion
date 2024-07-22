@@ -1,0 +1,218 @@
+.screen {
+    position: relative;
+    width: 375px;
+    height: 876px;
+    background-color: #ffffff;
+  }
+  
+  .screen .view {
+    position: absolute;
+    width: 67px;
+    height: 27px;
+    top: 18px;
+    left: 28px;
+  }
+  
+  .screen .text-wrapper {
+    position: absolute;
+    top: -1px;
+    left: 0;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .screen .div {
+    top: 106px;
+    left: 26px;
+    position: absolute;
+    height: 17px;
+    font-family: "Spartan-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 15px;
+    letter-spacing: 0.3px;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .screen .view-2 {
+    position: absolute;
+    width: 357px;
+    height: 374px;
+    top: 384px;
+    left: 27px;
+  }
+  
+  .screen .text-wrapper-2 {
+    top: 6px;
+    left: 8px;
+    position: absolute;
+    height: 17px;
+    font-family: "Spartan-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 15px;
+    letter-spacing: 0.3px;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .screen .typcn-plus-wrapper {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    top: 0;
+    left: 69px;
+    background-color: #ababab;
+    border-radius: 16px;
+  }
+  
+  .screen .typcn-plus {
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    top: 6px;
+    left: 5px;
+  }
+  
+  .screen .overlap-group-wrapper {
+    position: absolute;
+    width: 228px;
+    height: 228px;
+    top: 67px;
+    left: 53px;
+    background-image: url(./img/ellipse-2319.svg);
+    background-size: 100% 100%;
+  }
+  
+  .screen .overlap-group {
+    position: relative;
+    height: 228px;
+    background-image: url(./img/ellipse-2321.svg);
+    background-size: 100% 100%;
+  }
+  
+  .screen .ellipse {
+    position: absolute;
+    width: 114px;
+    height: 129px;
+    top: 99px;
+    left: 114px;
+  }
+  
+  .screen .img {
+    position: absolute;
+    width: 228px;
+    height: 228px;
+    top: 0;
+    left: 0;
+  }
+  
+  .screen .view-3 {
+    position: absolute;
+    width: 9px;
+    height: 8px;
+    top: 348px;
+    left: 163px;
+    background-color: #ababab;
+    border-radius: 4.5px/4.13px;
+  }
+  
+  .screen .view-4 {
+    position: absolute;
+    width: 375px;
+    height: 56px;
+    top: 820px;
+    left: 2px;
+    background-color: #000000;
+    overflow-y: scroll;
+  }
+  
+  .screen .overlap {
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    top: 14px;
+    left: 318px;
+    background-image: url(./img/vector-2.svg);
+    background-size: 100% 100%;
+  }
+  
+  .screen .vector {
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    top: 0;
+    left: 0;
+  }
+  
+  .screen .view-5 {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 12px;
+    left: 243px;
+  }
+  
+  .screen .bar {
+    position: absolute;
+    width: 9px;
+    height: 19px;
+    top: 13px;
+    left: 0;
+    background-color: #fdd0ee;
+  }
+  
+  .screen .bar-2 {
+    height: 24px;
+    top: 8px;
+    left: 12px;
+    background-color: #d0ffe5;
+    position: absolute;
+    width: 9px;
+  }
+  
+  .screen .bar-3 {
+    height: 32px;
+    top: 0;
+    left: 23px;
+    background-color: #d0e8ff;
+    position: absolute;
+    width: 9px;
+  }
+  
+  .screen .vector-2 {
+    left: 95px;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 12px;
+  }
+  
+  .screen .vector-3 {
+    left: 171px;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 12px;
+  }
+  
+  .screen .vector-4 {
+    left: 23px;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 12px;
+  }
+  
+  .screen .calendar {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 104px;
+    left: 125px;
+  }

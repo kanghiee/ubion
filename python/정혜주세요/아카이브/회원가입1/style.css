@@ -1,0 +1,276 @@
+.element {
+  position: relative;
+  width: 375px;
+  height: 876px;
+  background-color: #ffffff;
+}
+
+.element .text-wrapper {
+  position: absolute;
+  top: 17px;
+  left: 26px;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.element .overlap {
+  position: absolute;
+  width: 320px;
+  height: 498px;
+  top: 96px;
+  left: 27px;
+}
+
+.element .element-primary-button {
+  display: flex;
+  width: 60px;
+  height: 32px;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 0px 16px;
+  position: absolute;
+  top: 201px;
+  left: 259px;
+  background-color: #000000;
+  border-radius: 8px;
+}
+
+.element .div {
+  position: relative;
+  width: 53px;
+  margin-left: -12.5px;
+  margin-right: -12.5px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 21px;
+}
+
+.element .group {
+  position: absolute;
+  width: 320px;
+  height: 498px;
+  top: 0;
+  left: 0;
+}
+
+.element .group-2 {
+  position: relative;
+  height: 498px;
+}
+
+.element .group-3 {
+  position: absolute;
+  width: 321px;
+  height: 83px;
+  top: 0;
+  left: 1px;
+}
+
+.element .text-wrapper-2 {
+  position: absolute;
+  width: 128px;
+  top: 0;
+  left: 0;
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.element .div-wrapper {
+  position: absolute;
+  width: 318px;
+  height: 24px;
+  top: 59px;
+  left: 3px;
+}
+
+.element .text-wrapper-3 {
+  position: absolute;
+  width: 316px;
+  top: 0;
+  left: 0;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.element .group-4 {
+  position: absolute;
+  width: 320px;
+  height: 325px;
+  top: 173px;
+  left: 0;
+}
+
+.element .group-5 {
+  position: absolute;
+  width: 320px;
+  height: 177px;
+  top: 0;
+  left: 0;
+}
+
+.element .group-wrapper {
+  position: absolute;
+  width: 319px;
+  height: 64px;
+  top: 0;
+  left: 1px;
+}
+
+.element .group-6 {
+  position: relative;
+  height: 64px;
+}
+
+.element .email {
+  position: absolute;
+  top: -1px;
+  left: 0;
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.element .enter-your-email {
+  position: absolute;
+  top: 30px;
+  left: 20px;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #000741;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.element .rectangle {
+  left: 0;
+  background-color: #000741;
+  position: absolute;
+  width: 319px;
+  height: 2px;
+  top: 62px;
+}
+
+.element .message {
+  position: absolute;
+  width: 13px;
+  height: 17px;
+  top: 35px;
+  left: 0;
+}
+
+.element .group-7 {
+  position: absolute;
+  width: 322px;
+  height: 64px;
+  top: 113px;
+  left: 0;
+}
+
+.element .text-wrapper-4 {
+  position: absolute;
+  width: 65px;
+  top: 0;
+  left: 1px;
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.element .rectangle-2 {
+  left: 1px;
+  background-color: #999999;
+  position: absolute;
+  width: 319px;
+  height: 2px;
+  top: 62px;
+}
+
+.element .group-8 {
+  position: absolute;
+  width: 170px;
+  height: 20px;
+  top: 32px;
+  left: 0;
+}
+
+.element .text-wrapper-5 {
+  position: absolute;
+  width: 141px;
+  top: 0;
+  left: 27px;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #000741;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.element .padlock {
+  position: absolute;
+  width: 18px;
+  height: 17px;
+  top: 1px;
+  left: 0;
+}
+
+.element .invisible {
+  position: absolute;
+  width: 13px;
+  height: 14px;
+  top: 39px;
+  left: 307px;
+}
+
+.element .overlap-group-wrapper {
+  position: absolute;
+  width: 321px;
+  height: 53px;
+  top: 272px;
+  left: 1px;
+}
+
+.element .overlap-group {
+  position: relative;
+  width: 319px;
+  height: 53px;
+  background-color: #0c21c1;
+  border-radius: 32px;
+  box-shadow: 0px 4px 26px #00000040;
+}
+
+.element .text-wrapper-6 {
+  position: absolute;
+  width: 51px;
+  top: 14px;
+  left: 134px;
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 17px;
+  letter-spacing: 0;
+  line-height: normal;
+}

@@ -1,0 +1,896 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20232.24.0513.1501                               -->
+<workbook original-version='18.1' source-build='2023.2.9 (20232.24.0513.1501)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='sheet(키워드 목록 20240721 2324)' inline='true' name='federated.04ar4x61p1luxy16z0vqa1mvdaex' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='키워드 목록 20240721 2324' name='excel-direct.01x6j0l0rhef2113tmb7w1gxnsvl'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='/Users/kang_hiee/Documents/GitHub/ubion/python/최종프로젝트/키워드분석/키워드 목록 20240721 2324.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.01x6j0l0rhef2113tmb7w1gxnsvl' name='sheet' table='[sheet$]' type='table'>
+          <columns gridOrigin='A1:N27:no:A1:N27:0' header='yes' outcome='2'>
+            <column datatype='string' name='키워드' ordinal='0' />
+            <column datatype='string' name='입찰가 유형' ordinal='1' />
+            <column datatype='integer' name='입찰가' ordinal='2' />
+            <column datatype='integer' name='품질지수' ordinal='3' />
+            <column datatype='integer' name='노출수' ordinal='4' />
+            <column datatype='integer' name='클릭수' ordinal='5' />
+            <column datatype='real' name='클릭률(%)' ordinal='6' />
+            <column datatype='integer' name='평균클릭비용(VAT포함,원)' ordinal='7' />
+            <column datatype='string' name='총비용(VAT포함,원)' ordinal='8' />
+            <column datatype='integer' name='전환수' ordinal='9' />
+            <column datatype='integer' name='전환율(%)' ordinal='10' />
+            <column datatype='integer' name='전환매출액' ordinal='11' />
+            <column datatype='integer' name='광고수익률(%)' ordinal='12' />
+            <column datatype='integer' name='전환당비용(원)' ordinal='13' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.01x6j0l0rhef2113tmb7w1gxnsvl' name='sheet' table='[sheet$]' type='table'>
+          <columns gridOrigin='A1:N27:no:A1:N27:0' header='yes' outcome='2'>
+            <column datatype='string' name='키워드' ordinal='0' />
+            <column datatype='string' name='입찰가 유형' ordinal='1' />
+            <column datatype='integer' name='입찰가' ordinal='2' />
+            <column datatype='integer' name='품질지수' ordinal='3' />
+            <column datatype='integer' name='노출수' ordinal='4' />
+            <column datatype='integer' name='클릭수' ordinal='5' />
+            <column datatype='real' name='클릭률(%)' ordinal='6' />
+            <column datatype='integer' name='평균클릭비용(VAT포함,원)' ordinal='7' />
+            <column datatype='string' name='총비용(VAT포함,원)' ordinal='8' />
+            <column datatype='integer' name='전환수' ordinal='9' />
+            <column datatype='integer' name='전환율(%)' ordinal='10' />
+            <column datatype='integer' name='전환매출액' ordinal='11' />
+            <column datatype='integer' name='광고수익률(%)' ordinal='12' />
+            <column datatype='integer' name='전환당비용(원)' ordinal='13' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[sheet]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:N27:no:A1:N27:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>키워드</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[키워드]</local-name>
+            <parent-name>[sheet]</parent-name>
+            <remote-alias>키워드</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[sheet_B489F1D831304E5AA5C865E51357393C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>입찰가 유형</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[입찰가 유형]</local-name>
+            <parent-name>[sheet]</parent-name>
+            <remote-alias>입찰가 유형</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[sheet_B489F1D831304E5AA5C865E51357393C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>입찰가</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[입찰가]</local-name>
+            <parent-name>[sheet]</parent-name>
+            <remote-alias>입찰가</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[sheet_B489F1D831304E5AA5C865E51357393C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>품질지수</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[품질지수]</local-name>
+            <parent-name>[sheet]</parent-name>
+            <remote-alias>품질지수</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[sheet_B489F1D831304E5AA5C865E51357393C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>노출수</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[노출수]</local-name>
+            <parent-name>[sheet]</parent-name>
+            <remote-alias>노출수</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[sheet_B489F1D831304E5AA5C865E51357393C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>클릭수</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[클릭수]</local-name>
+            <parent-name>[sheet]</parent-name>
+            <remote-alias>클릭수</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[sheet_B489F1D831304E5AA5C865E51357393C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>클릭률(%)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[클릭률(%)]</local-name>
+            <parent-name>[sheet]</parent-name>
+            <remote-alias>클릭률(%)</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[sheet_B489F1D831304E5AA5C865E51357393C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>평균클릭비용(VAT포함,원)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[평균클릭비용(VAT포함,원)]</local-name>
+            <parent-name>[sheet]</parent-name>
+            <remote-alias>평균클릭비용(VAT포함,원)</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[sheet_B489F1D831304E5AA5C865E51357393C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>총비용(VAT포함,원)</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[총비용(VAT포함,원)]</local-name>
+            <parent-name>[sheet]</parent-name>
+            <remote-alias>총비용(VAT포함,원)</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[sheet_B489F1D831304E5AA5C865E51357393C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>전환수</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[전환수]</local-name>
+            <parent-name>[sheet]</parent-name>
+            <remote-alias>전환수</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[sheet_B489F1D831304E5AA5C865E51357393C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>전환율(%)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[전환율(%)]</local-name>
+            <parent-name>[sheet]</parent-name>
+            <remote-alias>전환율(%)</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[sheet_B489F1D831304E5AA5C865E51357393C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>전환매출액</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[전환매출액]</local-name>
+            <parent-name>[sheet]</parent-name>
+            <remote-alias>전환매출액</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[sheet_B489F1D831304E5AA5C865E51357393C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>광고수익률(%)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[광고수익률(%)]</local-name>
+            <parent-name>[sheet]</parent-name>
+            <remote-alias>광고수익률(%)</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[sheet_B489F1D831304E5AA5C865E51357393C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>전환당비용(원)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[전환당비용(원)]</local-name>
+            <parent-name>[sheet]</parent-name>
+            <remote-alias>전환당비용(원)</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[sheet_B489F1D831304E5AA5C865E51357393C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='sheet' datatype='table' name='[__tableau_internal_object_id__].[sheet_B489F1D831304E5AA5C865E51357393C]' role='measure' type='quantitative' />
+      <column caption='총비용(Vat포함,원)' datatype='string' name='[총비용(VAT포함,원)]' role='dimension' type='nominal' />
+      <column caption='평균클릭비용(Vat포함,원)' datatype='integer' name='[평균클릭비용(VAT포함,원)]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;대한민국&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='sheet' id='sheet_B489F1D831304E5AA5C865E51357393C'>
+            <properties context=''>
+              <relation connection='excel-direct.01x6j0l0rhef2113tmb7w1gxnsvl' name='sheet' table='[sheet$]' type='table'>
+                <columns gridOrigin='A1:N27:no:A1:N27:0' header='yes' outcome='2'>
+                  <column datatype='string' name='키워드' ordinal='0' />
+                  <column datatype='string' name='입찰가 유형' ordinal='1' />
+                  <column datatype='integer' name='입찰가' ordinal='2' />
+                  <column datatype='integer' name='품질지수' ordinal='3' />
+                  <column datatype='integer' name='노출수' ordinal='4' />
+                  <column datatype='integer' name='클릭수' ordinal='5' />
+                  <column datatype='real' name='클릭률(%)' ordinal='6' />
+                  <column datatype='integer' name='평균클릭비용(VAT포함,원)' ordinal='7' />
+                  <column datatype='string' name='총비용(VAT포함,원)' ordinal='8' />
+                  <column datatype='integer' name='전환수' ordinal='9' />
+                  <column datatype='integer' name='전환율(%)' ordinal='10' />
+                  <column datatype='integer' name='전환매출액' ordinal='11' />
+                  <column datatype='integer' name='광고수익률(%)' ordinal='12' />
+                  <column datatype='integer' name='전환당비용(원)' ordinal='13' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='검색채널(키워드별_유입수및_결제율)' inline='true' name='federated.1ffhlk4065k1wt14urfse02fo8hh' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='키워드별_유입수및_결제율' name='excel-direct.01jpudl0wxpb8p1guk7uc0skothe'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='/Users/kang_hiee/Documents/GitHub/ubion/python/최종프로젝트/키워드분석/키워드별_유입수및_결제율.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.01jpudl0wxpb8p1guk7uc0skothe' name='검색채널' table='[검색채널$]' type='table'>
+          <columns gridOrigin='A1:P457:no:A1:P457:0' header='yes' outcome='6'>
+            <column datatype='string' name='채널속성' ordinal='0' />
+            <column datatype='string' name='채널그룹' ordinal='1' />
+            <column datatype='string' name='채널명' ordinal='2' />
+            <column datatype='string' name='키워드' ordinal='3' />
+            <column datatype='integer' name='고객수' ordinal='4' />
+            <column datatype='integer' name='유입수' ordinal='5' />
+            <column datatype='integer' name='페이지수' ordinal='6' />
+            <column datatype='real' name='유입당 페이지수' ordinal='7' />
+            <column datatype='integer' name='결제수(마지막클릭)' ordinal='8' />
+            <column datatype='real' name='유입당 결제율(마지막클릭)' ordinal='9' />
+            <column datatype='integer' name='결제금액(마지막클릭)' ordinal='10' />
+            <column datatype='real' name='유입당 결제금액(마지막클릭)' ordinal='11' />
+            <column datatype='real' name='결제수(+14일기여도추정)' ordinal='12' />
+            <column datatype='real' name='유입당 결제율(+14일기여도추정)' ordinal='13' />
+            <column datatype='real' name='결제금액(+14일기여도추정)' ordinal='14' />
+            <column datatype='real' name='유입당 결제금액(+14일기여도추정)' ordinal='15' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.01jpudl0wxpb8p1guk7uc0skothe' name='검색채널' table='[검색채널$]' type='table'>
+          <columns gridOrigin='A1:P457:no:A1:P457:0' header='yes' outcome='6'>
+            <column datatype='string' name='채널속성' ordinal='0' />
+            <column datatype='string' name='채널그룹' ordinal='1' />
+            <column datatype='string' name='채널명' ordinal='2' />
+            <column datatype='string' name='키워드' ordinal='3' />
+            <column datatype='integer' name='고객수' ordinal='4' />
+            <column datatype='integer' name='유입수' ordinal='5' />
+            <column datatype='integer' name='페이지수' ordinal='6' />
+            <column datatype='real' name='유입당 페이지수' ordinal='7' />
+            <column datatype='integer' name='결제수(마지막클릭)' ordinal='8' />
+            <column datatype='real' name='유입당 결제율(마지막클릭)' ordinal='9' />
+            <column datatype='integer' name='결제금액(마지막클릭)' ordinal='10' />
+            <column datatype='real' name='유입당 결제금액(마지막클릭)' ordinal='11' />
+            <column datatype='real' name='결제수(+14일기여도추정)' ordinal='12' />
+            <column datatype='real' name='유입당 결제율(+14일기여도추정)' ordinal='13' />
+            <column datatype='real' name='결제금액(+14일기여도추정)' ordinal='14' />
+            <column datatype='real' name='유입당 결제금액(+14일기여도추정)' ordinal='15' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[검색채널]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:P457:no:A1:P457:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>채널속성</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[채널속성]</local-name>
+            <parent-name>[검색채널]</parent-name>
+            <remote-alias>채널속성</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[검색채널_1C93E5E3F781429D8DE6EF5D80347DCA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>채널그룹</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[채널그룹]</local-name>
+            <parent-name>[검색채널]</parent-name>
+            <remote-alias>채널그룹</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[검색채널_1C93E5E3F781429D8DE6EF5D80347DCA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>채널명</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[채널명]</local-name>
+            <parent-name>[검색채널]</parent-name>
+            <remote-alias>채널명</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[검색채널_1C93E5E3F781429D8DE6EF5D80347DCA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>키워드</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[키워드]</local-name>
+            <parent-name>[검색채널]</parent-name>
+            <remote-alias>키워드</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[검색채널_1C93E5E3F781429D8DE6EF5D80347DCA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>고객수</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[고객수]</local-name>
+            <parent-name>[검색채널]</parent-name>
+            <remote-alias>고객수</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[검색채널_1C93E5E3F781429D8DE6EF5D80347DCA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>유입수</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[유입수]</local-name>
+            <parent-name>[검색채널]</parent-name>
+            <remote-alias>유입수</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[검색채널_1C93E5E3F781429D8DE6EF5D80347DCA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>페이지수</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[페이지수]</local-name>
+            <parent-name>[검색채널]</parent-name>
+            <remote-alias>페이지수</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[검색채널_1C93E5E3F781429D8DE6EF5D80347DCA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>유입당 페이지수</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[유입당 페이지수]</local-name>
+            <parent-name>[검색채널]</parent-name>
+            <remote-alias>유입당 페이지수</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[검색채널_1C93E5E3F781429D8DE6EF5D80347DCA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>결제수(마지막클릭)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[결제수(마지막클릭)]</local-name>
+            <parent-name>[검색채널]</parent-name>
+            <remote-alias>결제수(마지막클릭)</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[검색채널_1C93E5E3F781429D8DE6EF5D80347DCA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>유입당 결제율(마지막클릭)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[유입당 결제율(마지막클릭)]</local-name>
+            <parent-name>[검색채널]</parent-name>
+            <remote-alias>유입당 결제율(마지막클릭)</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[검색채널_1C93E5E3F781429D8DE6EF5D80347DCA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>결제금액(마지막클릭)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[결제금액(마지막클릭)]</local-name>
+            <parent-name>[검색채널]</parent-name>
+            <remote-alias>결제금액(마지막클릭)</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[검색채널_1C93E5E3F781429D8DE6EF5D80347DCA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>유입당 결제금액(마지막클릭)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[유입당 결제금액(마지막클릭)]</local-name>
+            <parent-name>[검색채널]</parent-name>
+            <remote-alias>유입당 결제금액(마지막클릭)</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[검색채널_1C93E5E3F781429D8DE6EF5D80347DCA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>결제수(+14일기여도추정)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[결제수(+14일기여도추정)]</local-name>
+            <parent-name>[검색채널]</parent-name>
+            <remote-alias>결제수(+14일기여도추정)</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[검색채널_1C93E5E3F781429D8DE6EF5D80347DCA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>유입당 결제율(+14일기여도추정)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[유입당 결제율(+14일기여도추정)]</local-name>
+            <parent-name>[검색채널]</parent-name>
+            <remote-alias>유입당 결제율(+14일기여도추정)</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[검색채널_1C93E5E3F781429D8DE6EF5D80347DCA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>결제금액(+14일기여도추정)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[결제금액(+14일기여도추정)]</local-name>
+            <parent-name>[검색채널]</parent-name>
+            <remote-alias>결제금액(+14일기여도추정)</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[검색채널_1C93E5E3F781429D8DE6EF5D80347DCA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>유입당 결제금액(+14일기여도추정)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[유입당 결제금액(+14일기여도추정)]</local-name>
+            <parent-name>[검색채널]</parent-name>
+            <remote-alias>유입당 결제금액(+14일기여도추정)</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[검색채널_1C93E5E3F781429D8DE6EF5D80347DCA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='검색채널' datatype='table' name='[__tableau_internal_object_id__].[검색채널_1C93E5E3F781429D8DE6EF5D80347DCA]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;대한민국&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='검색채널' id='검색채널_1C93E5E3F781429D8DE6EF5D80347DCA'>
+            <properties context=''>
+              <relation connection='excel-direct.01jpudl0wxpb8p1guk7uc0skothe' name='검색채널' table='[검색채널$]' type='table'>
+                <columns gridOrigin='A1:P457:no:A1:P457:0' header='yes' outcome='6'>
+                  <column datatype='string' name='채널속성' ordinal='0' />
+                  <column datatype='string' name='채널그룹' ordinal='1' />
+                  <column datatype='string' name='채널명' ordinal='2' />
+                  <column datatype='string' name='키워드' ordinal='3' />
+                  <column datatype='integer' name='고객수' ordinal='4' />
+                  <column datatype='integer' name='유입수' ordinal='5' />
+                  <column datatype='integer' name='페이지수' ordinal='6' />
+                  <column datatype='real' name='유입당 페이지수' ordinal='7' />
+                  <column datatype='integer' name='결제수(마지막클릭)' ordinal='8' />
+                  <column datatype='real' name='유입당 결제율(마지막클릭)' ordinal='9' />
+                  <column datatype='integer' name='결제금액(마지막클릭)' ordinal='10' />
+                  <column datatype='real' name='유입당 결제금액(마지막클릭)' ordinal='11' />
+                  <column datatype='real' name='결제수(+14일기여도추정)' ordinal='12' />
+                  <column datatype='real' name='유입당 결제율(+14일기여도추정)' ordinal='13' />
+                  <column datatype='real' name='결제금액(+14일기여도추정)' ordinal='14' />
+                  <column datatype='real' name='유입당 결제금액(+14일기여도추정)' ordinal='15' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='시트 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='sheet(키워드 목록 20240721 2324)' name='federated.04ar4x61p1luxy16z0vqa1mvdaex' />
+          </datasources>
+          <datasource-dependencies datasource='federated.04ar4x61p1luxy16z0vqa1mvdaex'>
+            <column-instance column='[키워드]' derivation='None' name='[none:키워드:nk]' pivot='key' type='nominal' />
+            <column-instance column='[노출수]' derivation='Sum' name='[sum:노출수:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[전환율(%)]' derivation='Sum' name='[sum:전환율(%):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[클릭률(%)]' derivation='Sum' name='[sum:클릭률(%):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[클릭수]' derivation='Sum' name='[sum:클릭수:qk]' pivot='key' type='quantitative' />
+            <column datatype='integer' name='[노출수]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[전환율(%)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[클릭률(%)]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[클릭수]' role='measure' type='quantitative' />
+            <column datatype='string' name='[키워드]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.04ar4x61p1luxy16z0vqa1mvdaex].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.04ar4x61p1luxy16z0vqa1mvdaex].[sum:노출수:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.04ar4x61p1luxy16z0vqa1mvdaex].[sum:전환율(\%):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.04ar4x61p1luxy16z0vqa1mvdaex].[sum:클릭률(\%):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.04ar4x61p1luxy16z0vqa1mvdaex].[sum:클릭수:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.04ar4x61p1luxy16z0vqa1mvdaex].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.04ar4x61p1luxy16z0vqa1mvdaex].[sum:노출수:qk]&quot;</bucket>
+              <bucket>&quot;[federated.04ar4x61p1luxy16z0vqa1mvdaex].[sum:클릭수:qk]&quot;</bucket>
+              <bucket>&quot;[federated.04ar4x61p1luxy16z0vqa1mvdaex].[sum:클릭률(\%):qk]&quot;</bucket>
+              <bucket>&quot;[federated.04ar4x61p1luxy16z0vqa1mvdaex].[sum:전환율(\%):qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='categorical' column='[federated.04ar4x61p1luxy16z0vqa1mvdaex].[none:키워드:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:키워드:nk]' />
+              <groupfilter function='member' level='[none:키워드:nk]' member='&quot;견과류세트&quot;' />
+            </groupfilter>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.04ar4x61p1luxy16z0vqa1mvdaex].[none:키워드:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.04ar4x61p1luxy16z0vqa1mvdaex].[sum:노출수:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.04ar4x61p1luxy16z0vqa1mvdaex].[:Measure Names]</column>
+            <column>[federated.04ar4x61p1luxy16z0vqa1mvdaex].[none:키워드:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.04ar4x61p1luxy16z0vqa1mvdaex].[Multiple Values]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.04ar4x61p1luxy16z0vqa1mvdaex].[none:키워드:nk]</rows>
+        <cols>[federated.04ar4x61p1luxy16z0vqa1mvdaex].[:Measure Names]</cols>
+      </table>
+      <simple-id uuid='{858C67DB-7CF5-4599-8754-58A06A6F2122}' />
+    </worksheet>
+    <worksheet name='시트 2'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>마케팅 채널별 유입수 및 결제율</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='검색채널(키워드별_유입수및_결제율)' name='federated.1ffhlk4065k1wt14urfse02fo8hh' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ffhlk4065k1wt14urfse02fo8hh'>
+            <column-instance column='[채널그룹]' derivation='None' name='[none:채널그룹:nk]' pivot='key' type='nominal' />
+            <column-instance column='[채널명]' derivation='None' name='[none:채널명:nk]' pivot='key' type='nominal' />
+            <column-instance column='[키워드]' derivation='None' name='[none:키워드:nk]' pivot='key' type='nominal' />
+            <column-instance column='[결제수(+14일기여도추정)]' derivation='Sum' name='[sum:결제수(+14일기여도추정):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[고객수]' derivation='Sum' name='[sum:고객수:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[유입당 페이지수]' derivation='Sum' name='[sum:유입당 페이지수:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[유입수]' derivation='Sum' name='[sum:유입수:qk]' pivot='key' type='quantitative' />
+            <column datatype='real' name='[결제수(+14일기여도추정)]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[고객수]' role='measure' type='quantitative' />
+            <column datatype='real' name='[유입당 페이지수]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[유입수]' role='measure' type='quantitative' />
+            <column datatype='string' name='[채널그룹]' role='dimension' type='nominal' />
+            <column datatype='string' name='[채널명]' role='dimension' type='nominal' />
+            <column datatype='string' name='[키워드]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1ffhlk4065k1wt14urfse02fo8hh].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1ffhlk4065k1wt14urfse02fo8hh].[sum:고객수:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1ffhlk4065k1wt14urfse02fo8hh].[sum:유입수:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1ffhlk4065k1wt14urfse02fo8hh].[sum:결제수(+14일기여도추정):qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.1ffhlk4065k1wt14urfse02fo8hh].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.1ffhlk4065k1wt14urfse02fo8hh].[sum:고객수:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1ffhlk4065k1wt14urfse02fo8hh].[sum:유입수:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1ffhlk4065k1wt14urfse02fo8hh].[sum:유입당 페이지수:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='categorical' column='[federated.1ffhlk4065k1wt14urfse02fo8hh].[none:키워드:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:키워드:nk]' />
+              <groupfilter function='member' level='[none:키워드:nk]' member='&quot;(검색어 없음)&quot;' />
+            </groupfilter>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1ffhlk4065k1wt14urfse02fo8hh].[none:키워드:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1ffhlk4065k1wt14urfse02fo8hh].[sum:고객수:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.1ffhlk4065k1wt14urfse02fo8hh].[:Measure Names]</column>
+            <column>[federated.1ffhlk4065k1wt14urfse02fo8hh].[none:키워드:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1ffhlk4065k1wt14urfse02fo8hh].[Multiple Values]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1ffhlk4065k1wt14urfse02fo8hh].[none:채널그룹:nk] / ([federated.1ffhlk4065k1wt14urfse02fo8hh].[none:채널명:nk] / [federated.1ffhlk4065k1wt14urfse02fo8hh].[none:키워드:nk]))</rows>
+        <cols>[federated.1ffhlk4065k1wt14urfse02fo8hh].[:Measure Names]</cols>
+      </table>
+      <simple-id uuid='{C49C00B8-C3AD-4E1C-91F4-F68B434C60AD}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='51'>
+    <window class='worksheet' name='시트 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{856D03A6-6C8F-4E56-8EDC-2C57D0F3B08A}' />
+    </window>
+    <window class='worksheet' maximized='true' name='시트 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='fit-width' />
+      </viewpoint>
+      <simple-id uuid='{1FDB94F8-F5F9-4D09-9C2E-E50A65F81A72}' />
+    </window>
+  </windows>
+</workbook>
